@@ -14,9 +14,61 @@
     <title>umma page</title>
   </head>
   <body>
+
+    <section class="hero-section">
+      <nav class="navbar">
+          <img src="/css-app-landing-page/image/logo.png" alt="acme-logo" />
+          <div class="nav-wrapper">
+            <a href="" class="nav-home">Home</a>
+            <a href="" class="nav-features">Features</a>
+            <a href="" class="nav-pricing">Pricing</a>
+            <a href="" class="nav-contact">Contact</a>
+      </nav>
+
+      <div class="content-header">
+        <div class="tag">
+          <p class="tag-content">🌈️ Acme Productivity App</p>
+        </div>
+        <div class="content-product">
+          <h1 class="boost-product">Boost Your <span class="span-head-product" style="color: #5E44FF;">Product</span>ivity</h1>
+          <h3 class="product-content">Streamline your workflow with our all-in-one productivity app.</h3>
+        </div>
+        <button class="start-trial">Start Free Trial</button>
+      </div>
+
+      <div class="content-container">
+        <div class="content-1st">
+          <div class="box-image">
+            <div class="frame-rocket">
+              <img src="/css-app-landing-page/image/rocket.png" alt="rocket" class="rocket-icon">
+            </div>
+          </div>
+          <h3 class="head-1st">Streamlined Workflows</h3>
+          <p class="text-1st">Automate repetitive tasks and focus on high-impact work with our 
+            powerful productivity features.</p>
+        </div>
+        <div class="content-2nd">
+          <div class="box-image">
+            <img src="/css-app-landing-page/image/board.png" alt="board" class="board-icon">
+          </div>
+          <h3 class="head-2nd">Blazing Fast Performance</h3>
+          <p class="text-2nd">Experience lightning-fast performance and instant responsiveness with our cutting-edge technology.</p>
+        </div>
+        <div class="content-3rd">
+          <div class="box-image">
+            <img src="/css-app-landing-page/image/Vector.png" alt="smile" class="smile-icon">
+          </div>
+          <h3 class="head-3rd">Intuitive Interface</h3>
+          <p class="text-3rd">Our user-friendly interface makes it easy for anyone to streamline their workflow.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="containers">
     <div class="container">
       <h2>Get in Touch</h2>
-
+      <form class="msg-form" action="submit">
       <label>Name</label>
       <input type="text" placeholder="John Doe" />
 
@@ -24,21 +76,24 @@
       <input type="email" placeholder="john@example.com" />
 
       <label>Message</label>
-      <input placeholder="Your message..." />
+      <input type="text" class="message-container" placeholder="Your message..." />
+      </form>
 
-      <button>Submit</button>
-
-      
+      <button class="submit">Submit</button>
     </div>
+  </div>
+
 
     <footer>
+      <div class="footers">
       <h3 class="text1">Acme productivity app ©2024</h3>
       <nav class="footer-links">
-        <a href="#">FAQ</a>
-        <a href="#">Terms</a>
-        <a href="#">AI Policy</a>
-        <a href="#">Pricing</a>
+        <button class="footer-button">FAQ</button>
+        <button class="footer-button">Terms</button>
+        <button class="footer-button">AI Policy</button>
+        <button class="footer-button">Pricing</button>
       </nav>
+    </div>
     </footer>
 
   </body>
